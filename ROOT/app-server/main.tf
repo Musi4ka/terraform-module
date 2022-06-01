@@ -7,5 +7,5 @@ module "app-vpc" {
 }
 
 module "app-server" {
-  source = "value"
+  source = "git::https://github.com/Musi4ka/terraform-module.git//CHILD/EC2"
 }
